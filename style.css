@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #000000;
+  min-height: 50px;
+}
+
+.width {
+  width: 850px;
+  /* border: 5px solid red; */
+  margin: 0 auto;
+}
+.main-nav {
+  min-height: 50px;
+  /* width: 800px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.main-nav-left {
+  min-height: 50px;
+}
+.nav-title {
+  /* display: flex; */
+  color: white;
+  padding-left: 10px;
+  font-size: xx-large;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.main a {
+  color: blue;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+.btn {
+  padding: 5px 20px;
+  background-color: #17a2b8;
+  color: white;
+  font-weight: bolder;
+}
+.active {
+  font-weight: bolder;
+}
+.main-nav-right {
+  min-height: 50px;
+}
+.main-content {
+  min-height: 500px;
+  width: 70%;
+  margin: 0 auto;
+}
+.content-left {
+  background-color: white;
+  min-height: 500px;
+  /* flex: 2; */
+}
+.usercard {
+  min-height: 250px;
+  border: 2px solid grey;
+  width: 500px;
+  /* background-color: red; */
+}
+
+.card {
+  background-color: silver;
+  width: 400px;
+  min-height: 200px;
+  margin: 50px auto;
+  border: 2px solid black;
+}
+.header {
+  background-color: #17a2b8;
+  min-height: 50px;
+  position: relative;
+}
+.main {
+  /* background-color: red; */
+  /* border: 5px solid purple; */
+  min-height: 200px;
+  padding: 25px;
+}
+.logo {
+  width: 50px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.small {
+  width: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.mb {
+  padding-bottom: 10px;
+}
+.education {
+  width: 500px;
+  border: 2px solid grey;
+  min-height: 150px;
+  margin-top: 25px;
+}
+.edu {
+  background-color: #333333;
+  color: white;
+  padding: 8px;
+  /* margin-left: 10px; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.date {
+  font-style: italic;
+  color: grey;
+}
+.coding {
+  margin-left: 10px;
+  /* gap: */
+}
+.dojo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.content-right {
+  /* background-color: purple; */
+  min-height: 500px;
+  /* flex: 1; */
+}
+.Crequest {
+  border: 2px solid grey;
+  width: 300px;
+  min-height: 175px;
+  margin-left: 25px;
+  /* margin-top: 25px;; */
+}
+.t-right {
+  background-color: #333;
+  color: white;
+  min-height: 50px;
+}
+.conn {
+  /* display: inline-block; */
+  text-align: center;
+  padding-top: 5px;
+  height: 30px;
+  width: 50px;
+  background-color: grey;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.req {
+  text-align: center;
+  padding-top: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* .icon-top{
+  min-height: 50px;
+} */
+.icon-top img {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.YConnection {
+  /* background-color: darkgreen; */
+  border: 2px solid grey;
+  min-height: 225px;
+  width: 300px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-justify {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap:20px; */
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-bw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.more {
+  border: 1px solid grey;
+  width: 300px;
+  margin: 0 5px 0px 25px;
+  padding-top: 10px;
+  color: blue;
+  text-decoration: underline;
+}
